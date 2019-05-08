@@ -1,12 +1,11 @@
+En cours de création, le site n'est pas fini.
+
+
+
+
+
 # React / GatsbyJS Theme - Dimension
 
-> A Quick Way to bootstrap your next React app. Provided by [AppSeed.us](https://appseed.us?ref=github) 
-
-![ss](https://static.appseed.us/misc/react-themes-dimension-page.jpg)
-
-## Demo 💯
-
-- [Demo Link](https://http://react-themes-dimension.appseed.us)
 
 ## Features 🚀
 
@@ -16,21 +15,10 @@
 - Sitemap plugin
 - Google Analytics
 
-## How to use it? 👨‍💻
-
-You need npm and Gatsby CLI installed on your development machine.
-
-### Clone the repository/Installation
-
-If you have Git installed on your system you can run the following command:
-
-`git clone https://github.com/react-theme/dimension`
-
-Otherwise you can directly download it clicking on download button on this repository.
 
 ### Running in development mode
 
-Go inside `dimension/` directory and run the following command:
+Go inside 
 
 - `npm install` to install modules or `yarn` (recommended)
 - `yarn develop` to start the development (live browser update)
@@ -65,8 +53,3 @@ var config = {
 }
 ```
 
-## Support
-In case of any isse, please use Github issue tracker or contact us on [Facebook](https://www.facebook.com/groups/fullstack.apps.generator). 
-
----
-Made with ♥ by [AppSeed](https://appseed.us?ref=github) - #FullStack power for #web development
