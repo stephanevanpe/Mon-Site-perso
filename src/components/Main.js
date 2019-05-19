@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from "gatsby"
 
 import margouillat from '../images/margouillat.jpg'
 import code from '../images/IMG_4193.jpg'
 import pic03 from '../images/pic03.jpg'
+import cv from '../pages/cv Van_Pe_Stephane.pdf'
 
 class Main extends React.Component {
   render() {
@@ -37,7 +39,7 @@ class Main extends React.Component {
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact / <a target="_blank" href={cv}>c.v.</a></h2>
           <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
