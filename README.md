@@ -5,7 +5,6 @@ https://stephane-van-pe.netlify.com
 
 
 
-
 # React / GatsbyJS Theme - Dimension
 
 
