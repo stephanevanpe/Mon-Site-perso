@@ -94,7 +94,7 @@ class Main extends React.Component {
           <h2 className="major">Travail</h2>
           <span className="image main"><img src={code} alt="" /></span>
           <p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai du faire face à un changement de vie.</p>
-          <p>C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de formation, j'ai peu étudier: Html/CSS, JavaScript, React, SQL. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur mon github.</p>
+          <p>C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de formation, j'ai pu étudier: Html/CSS, JavaScript, React, SQL. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur mon github.</p>
           {close}
         </article>
 
@@ -102,7 +102,7 @@ class Main extends React.Component {
           <h2 className="major">A Propos</h2>
           <span className="image main"><img src={pouring} alt="" /></span>
           <div>
-          <p>Il est très dure de ce décrire sois même. Passionné par un tas de choses je vous laisse le soin de me découvrir via les photos suivantes. </p>
+          <p>Il est très dur de ce décrire sois même. Passionné par un tas de choses je vous laisse le soin de me découvrir via les photos suivantes. </p>
           <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
             src,
             thumbnail,
