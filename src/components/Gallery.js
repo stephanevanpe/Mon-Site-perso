@@ -58,18 +58,18 @@ class Gallery extends Component {
 
         const gallery = images.map((obj, i) => {
             return (
-                <article className="6u 12u$(xsmall) work-item" key={i}>
+                <div  key={i}>
                     <a
                         className="image fit thumb"
                         href={obj.src}
                         onClick={(e) => this.openLightbox(i, e)}
                     >
-                        <img src={obj.thumbnail} />
+                        <img width="50px" height="50px" src={obj.thumbnail} />
                     </a>
 
                     <h3>{obj.caption}</h3>
                     <p>{obj.description}</p>
-                </article>
+                </div>
             );
         });
 

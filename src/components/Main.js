@@ -102,7 +102,7 @@ class Main extends React.Component {
           <h2 className="major">A Propos</h2>
           <span className="image main"><img src={pouring} alt="" /></span>
           <div>
-          <p>Il est très dur de ce décrire sois même. Passionné par un tas de choses je vous laisse le soin de me découvrir via les photos suivantes. </p>
+          <p>Il est très dur de ce décrire sois même.<br/>Passionné par un tas de choses je vous laisse le soin de me découvrir via une serie de photos réalisées par mes soins.<br/> Je vous invite à cliquer dessus pour obtenir un meilleur rendu. </p>
           <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
             src,
             thumbnail,

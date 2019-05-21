@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; Réaliser par: Stephane Van Pe 2019. 
+        <p className="copyright">&copy; Réalisé par: Stephane Van Pe 2019. 
             <br />
             <a target="_blank" href="https://github.com/stephanevanpe">
                 <span className="icon fa-github fa-2x"></span>
