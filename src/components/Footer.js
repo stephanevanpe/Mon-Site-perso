@@ -13,9 +13,7 @@ const Footer = (props) => (
                 <span className="icon fa-linkedin"></span>
             </a> 
             {'  '}
-            <a target="_blank" href="https://www.facebook.com/stephane.vanpe">
-                <span className="icon fa-facebook"></span>
-            </a> 
+           
         </p>
     </footer>
 )
