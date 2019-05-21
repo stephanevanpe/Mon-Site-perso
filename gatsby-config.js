@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "React Theme - Dimension",
-    author: "Original author Hunter Chang. Enhanced by AppSeed",
-    description: "Dimension design by HTML5 UP, Coded by AppSeed",
-    siteUrl: `https://react-themes-dimension.appseed.us`
+    title: "Mon site personnel",
+    author: "Stephane Van Pe",
+    description: "Site personnel de présentation",
+    siteUrl: `https://stephane-van-pe.netlify.com`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
