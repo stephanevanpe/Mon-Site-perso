@@ -22,12 +22,12 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-  { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-  { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-  { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-  { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-  { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' },
-  { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.' }
+  { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Panorama sur la plaine des sables.' },
+  { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Une habitante du jardin.' },
+  { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Cascade Réunionaise.' },
+  { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Vue sur l\' Océan depuis la terrasse à Guéthary.' },
+  { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'La rosée du matin sur une rose.' },
+  { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Couché de soleil sur la baie de St-Jean-De-Luz.' }
 ];
 
 class Main extends React.Component {
@@ -102,14 +102,14 @@ class Main extends React.Component {
           <h2 className="major">A Propos</h2>
           <span className="image main"><img src={pouring} alt="" /></span>
           <div>
-          <p>Il est très dur de ce décrire sois même.<br/>Passionné par un tas de choses je vous laisse le soin de me découvrir via une serie de photos réalisées par mes soins.<br/> Je vous invite à cliquer dessus pour obtenir un meilleur rendu. </p>
+          <p>Il est très dur de ce décrire sois même.<br/>Passionné par une multitude de choses, je vous laisse le soin de me découvrir via une serie de photos réalisées par mes soins.<br/> Je vous invite à cliquer dessus pour obtenir un meilleur rendu. </p>
           <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
             src,
             thumbnail,
             caption,
             description
           }))} />
-          <p>J'espère que cela vous a plus, n'hesitez pas à me contacter.</p>
+          <p>J'espère que cela vous a plus, n'hésitez pas à me contacter.</p>
           </div>
           {close}
         </article>
