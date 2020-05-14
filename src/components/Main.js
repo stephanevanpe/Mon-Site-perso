@@ -92,7 +92,9 @@ class Main extends React.Component {
 										<b>Khrisma</b>
 									</a>
 								</li>
-								<li> Le lien de la web app I Clean My Sea serra présent lorsque celui-ci aurra été dévoiller au public.</li>
+								<li>
+									<b>I Clean My Sea</b> (Le lien de la web app sera présent lorsque ce dernier aura été dévoilé au public.)
+								</li>
 								<li>
 									<a target='_blank' href='https://blogteam.netlify.app/'>
 										<b>Blog Big Pig Junk Food</b>
