@@ -86,12 +86,14 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={margouillat} alt="" /></span>
           <p>Bienvenu sur mon site personnel.</p>
+          <p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai du faire face à un changement de vie.</p>
+          <p>C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de formation, j'ai pu étudier: Html/CSS, JavaScript, React, SQL. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur mon github.</p>
           <p>Ce site a été créé afin que vous puissiez découvrir mon travail de jeune developpeur . Bonne visite . </p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
-          <h2 className="major">Travail</h2>
+          <h2 className="major">Réalisations</h2>
           <span className="image main"><img src={code} alt="" /></span>
           <p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai du faire face à un changement de vie.</p>
           <p>C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de formation, j'ai pu étudier: Html/CSS, JavaScript, React, SQL. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur mon github.</p>
@@ -99,23 +101,12 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">A Propos</h2>
-          <span className="image main"><img src={pouring} alt="" /></span>
-          <div>
-          <p>Il est très dur de ce décrire sois même.<br/>Passionné par une multitude de choses, je vous laisse le soin de me découvrir via une serie de photos réalisées par mes soins.<br/> Je vous invite à cliquer dessus pour obtenir un meilleur rendu. </p>
-          <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
-            src,
-            thumbnail,
-            caption,
-            description
-          }))} />
-          <p>J'espère que cela vous a plus, n'hésitez pas à me contacter.</p>
-          </div>
+          <h2 className="major"><a target="_blank" href={cv}>c.v.</a></h2>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact / <a target="_blank" href={cv}>c.v.</a></h2>
+          <h2 className="major">Contact</h2>
           <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="contact" />
