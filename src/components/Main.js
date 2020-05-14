@@ -69,8 +69,8 @@ class Main extends React.Component {
 							<p>Bienvenue sur mon site personnel</p>
 							<p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai dû faire face à un changement de vie.</p>
 							<p>
-								C'est pour cela que début 2019, j'ai débuté ma formation de développeur web au sein de la Wild Code School de Bidart. Durant mon cursus, j'ai étudié : <b>Html/CSS, JavaScript, React, Node js, SQL</b> et réalisé plusieurs projets que vous pouvez retrouver sur
-								mon github.
+								C'est pour cela que début 2019, j'ai débuté ma formation de développeur web au sein de la Wild Code School de Bidart. Durant mon cursus, j'ai
+								étudié : <b>Html/CSS, JavaScript, React, Node js, SQL</b> et réalisé plusieurs projets que vous pouvez retrouver sur mon github.
 							</p>
 							<p>Ce site a été créé afin que vous puissiez découvrir mon travail de jeune développeur.</p>
 							<p>Bonne visite. </p>
@@ -87,19 +87,15 @@ class Main extends React.Component {
 								<img src={code} alt='' />
 							</span>
 							<p>
-								Projet réalisé en stage et/ou emploi :
-								<li> Le lien de la web app I Clean My Sea serra présent lorsque celui-ci aurra été dévoiller au public.</li>
 								<li>
 									<a target='_blank' href='https://khrisma.fr'>
-										Khrisma
+										<b>Khrisma</b>
 									</a>
 								</li>
-							</p>
-							<p>
-								Projet réalisé en formation :
+								<li> Le lien de la web app I Clean My Sea serra présent lorsque celui-ci aurra été dévoiller au public.</li>
 								<li>
 									<a target='_blank' href='https://blogteam.netlify.app/'>
-										Blog Big Pig Junk Food
+										<b>Blog Big Pig Junk Food</b>
 									</a>
 								</li>
 							</p>
