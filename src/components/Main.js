@@ -66,15 +66,15 @@ class Main extends React.Component {
 							<span className='image main'>
 								<img src={margouillat} alt='' />
 							</span>
-							<p>Bienvenue sur mon site personnel.</p>
-							<p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai du faire face à un changement de vie.</p>
+							<p>Bienvenue sur mon site personnel</p>
+							<p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai dû faire face à un changement de vie.</p>
 							<p>
-								C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de
-								formation, j'ai pu étudier: <b>Html/CSS, JavaScript, React, SQL</b>. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur
+								C'est pour cela que début 2019, j'ai débuté ma formation de développeur web au sein de la Wild Code School de Bidart. Durant mon cursus
+								, j'ai étudié: <b>Html/CSS, JavaScript, React, Node js, SQL</b> et réalisé plusieurs projets que vous pouvez retrouver sur
 								mon github.
 							</p>
 							<p>Ce site a été créé afin que vous puissiez découvrir mon travail de jeune developpeur .</p>
-							<p>Bonne visite . </p>
+							<p>Bonne visite. </p>
 							{close}
 						</article>
 
