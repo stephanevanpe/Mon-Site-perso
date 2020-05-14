@@ -72,13 +72,14 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Réalisations</h2>
           <span className="image main"><img src={code} alt="" /></span>
-          <p>Projet réalisé en formation.
-            <li><a target="_blank" href="https://blogteam.netlify.app/">Blog Big Pig Junk Food</a></li>
-          </p>
-          <p>Projet réalisé en stage et ou emploi.
+          <p><u>Projet réalisé en stage et/ou emploi:</u>
             <li> Le lien de la web app I Clean My Sea serra présent lorsque celui-ci aurra été dévoiller au public.</li>
             <li><a target="_blank" href="https://khrisma.fr">Khrisma</a></li>
           </p>
+          <p><u>Projet réalisé en formation:</u>
+            <li><a target="_blank" href="https://blogteam.netlify.app/">Blog Big Pig Junk Food</a></li>
+          </p>
+          
           
           {close}
         </article>
