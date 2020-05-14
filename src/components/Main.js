@@ -61,10 +61,11 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={margouillat} alt="" /></span>
-          <p>Bienvenu sur mon site personnel.</p>
+          <p>Bienvenue sur mon site personnel.</p>
           <p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai du faire face à un changement de vie.</p>
           <p>C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de formation, j'ai pu étudier: Html/CSS, JavaScript, React, SQL. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur mon github.</p>
-          <p>Ce site a été créé afin que vous puissiez découvrir mon travail de jeune developpeur . Bonne visite . </p>
+          <p>Ce site a été créé afin que vous puissiez découvrir mon travail de jeune developpeur .</p>
+          <p>Bonne visite . </p>
           {close}
         </article>
 
@@ -72,7 +73,7 @@ class Main extends React.Component {
           <h2 className="major">Réalisations</h2>
           <span className="image main"><img src={code} alt="" /></span>
           <p>Après plusieurs années de travail dans le secteur de la biologie marine, j'ai du faire face à un changement de vie.</p>
-          <p>C'est pour cela que début 2019, j'ai debuté ma formation de developpeur web au sein de la Wild Code School de Bidart. Durant mon cursus de formation, j'ai pu étudier: Html/CSS, JavaScript, React, SQL. De même plusieurs projets ont été réalisés; vous pouvez les retrouver sur mon github.</p>
+          
           {close}
         </article>
 
