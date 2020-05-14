@@ -10,7 +10,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Stéphane Van Pe</h1>
-                <p>Développeur web junior .
+                <p>Développeur web junior 
                 </p>
             </div>
         </div>
