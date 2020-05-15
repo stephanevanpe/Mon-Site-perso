@@ -6,6 +6,14 @@ module.exports = {
 		siteUrl: `https://stephanevanpe.fr`,
 	},
 	plugins: [
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
+				trackingId: 'G-SNN3ES0MS3',
+				head: true,
+			},
+		},
 		'gatsby-plugin-react-helmet',
 		{
 			resolve: `gatsby-plugin-netlify`,
@@ -19,14 +27,7 @@ module.exports = {
 				generateMatchPathRewrites: true, // boolean to turn off automatic creation of redirect rules for client only paths
 			},
 		},
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
-				trackingId: 'G-SNN3ES0MS3',
-				head: true,
-			},
-		},
+
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
