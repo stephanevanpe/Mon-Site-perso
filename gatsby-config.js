@@ -4,6 +4,7 @@ module.exports = {
 		author: 'Stephane Van Pe',
 		description: 'Site personnel de présentation',
 		siteUrl: `https://stephane-van-pe.netlify.com`,
+		GoogleSiteVerification: `tn91ValuTIvG0vZKYr5YLokWC-_DT592n9h8X6o5U8w`,
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
