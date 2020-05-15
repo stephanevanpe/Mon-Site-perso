@@ -3,7 +3,7 @@ module.exports = {
 		title: 'Mon site personnel',
 		author: 'Stephane Van Pe',
 		description: 'Site personnel de présentation',
-		siteUrl: `https://stephane-van-pe.netlify.com`,
+		siteUrl: `https://stephanevanpe.fr`,
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
