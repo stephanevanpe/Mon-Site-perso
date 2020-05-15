@@ -7,17 +7,13 @@ module.exports = {
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
-		{
-			resolve: `gatsby-plugin-google-analytics`,
-			options: {
-				trackingId: 'UA-104843706-4',
-			},
-		},
+		
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
 				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
 				trackingId: 'G-SNN3ES0MS3',
+				head: true,
 			},
 		},
 		{
