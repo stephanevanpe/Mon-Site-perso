@@ -87,11 +87,7 @@ class Main extends React.Component {
 								<img src={code} alt='' />
 							</span>
 							<p>
-								<li>
-									<a target='_blank' href='https://khrisma.fr'>
-										<b>Khrisma</b>
-									</a>
-								</li>
+								
 								<li>
 									<b>I Clean My Sea</b> ( Le lien de la web app sera présent lorsque ce dernier aura été dévoilé au public. )
 								</li>
