@@ -113,7 +113,7 @@ class Main extends React.Component {
 								</li>
 						<li>
 							<a target='_blank' href='https://grillephotossvp.netlify.app'>
-								<b>Example grille de photos</b>
+								<b>Exemple grille de photos</b>
 							</a>
 						</li>
 							</p>
