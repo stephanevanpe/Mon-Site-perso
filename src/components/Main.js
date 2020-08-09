@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 
 import margouillat from '../images/margouillat.jpg'
 import gps from '../images/gps.png'
+import aps from '../images/aps.png'
 import code from '../images/IMG_4193.jpg'
 
 
@@ -93,10 +94,10 @@ class Main extends React.Component {
 									<a target='_blank' href='https://icleanmysea.firebaseapp.com/'>
 										<b>I Clean My Sea</b> 
 									</a>
-								<p>Cette application web a servi de base pour la création de l'application native disponible sur les stores:</p>
-								<a target='_blank' href='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'>
-									<img src={gps} alt='logo play store' />
-								</a>
+								<p>Cette application web a servi de base pour la création de l'application native disponible sur les stores:
+									<img src={gps} alt='logo play store' onclick="window.location='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'" />
+								<img src={aps} alt='logo app store' onclick="window.location='https://apps.apple.com/fr/app/i-clean-my-sea/id1524630568'"/>
+							</p>
 								</li>
 								<li>
 									<a target='_blank' href='https://blogteam.netlify.app/'>
