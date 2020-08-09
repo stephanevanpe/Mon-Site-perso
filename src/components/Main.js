@@ -99,6 +99,11 @@ class Main extends React.Component {
 										<b>Blog Big Pig Junk Food</b>
 									</a>
 								</li>
+						<li>
+							<a target='_blank' href='https://grillephotossvp.netlify.app'>
+								<b>Example de grille de photos</b>
+							</a>
+						</li>
 							</p>
 
 							{close}
