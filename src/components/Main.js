@@ -96,9 +96,15 @@ class Main extends React.Component {
 									</a>
 								<p>Cette application web a servi de base pour la création de l'application native disponible sur les stores:
 								</p>
-							<img src={gps} alt='logo play store' onclick="window.location='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'" />
+							<a target='_blank' href='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'>
+								<img src={gps} alt='logo play store' />
+							</a>
 							{' '}
-							<img src={aps} alt='logo app store' onclick="window.location='https://apps.apple.com/fr/app/i-clean-my-sea/id1524630568'" />
+							<a target='_blank' href='https://apps.apple.com/fr/app/i-clean-my-sea/id1524630568'>
+								<img src={aps} alt='logo app store'  />
+
+							</a>
+
 								</li>
 								<li>
 									<a target='_blank' href='https://blogteam.netlify.app/'>
