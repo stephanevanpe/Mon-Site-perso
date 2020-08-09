@@ -89,7 +89,9 @@ class Main extends React.Component {
 							<p>
 								
 								<li>
-									<b>I Clean My Sea</b> ( Le lien de la web app sera présent lorsque ce dernier aura été dévoilé au public. )
+							<a target='_blank' href='https://icleanmysea.firebaseapp.com/'>
+										<b>I Clean My Sea</b> Cette application web a servi de base pour la création de l'application native disponible sur les stores.
+									</a>
 								</li>
 								<li>
 									<a target='_blank' href='https://blogteam.netlify.app/'>
