@@ -105,7 +105,7 @@ class Main extends React.Component {
 								</li>
 						<li>
 							<a target='_blank' href='https://grillephotossvp.netlify.app'>
-								<b>Example de grille de photos</b>
+								<b>Example grille de photos</b>
 							</a>
 						</li>
 							</p>
