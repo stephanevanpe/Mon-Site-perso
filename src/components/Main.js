@@ -91,9 +91,9 @@ class Main extends React.Component {
 							<p>
 								
 								<li>
-									<a target='_blank' href='https://icleanmysea.firebaseapp.com/'>
+									
 										<b>I Clean My Sea</b> 
-									</a>
+									
 								<p>Cette application web a servi de base pour la création de l'application native disponible sur les stores:
 								</p>
 							<a target='_blank' href='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'>
