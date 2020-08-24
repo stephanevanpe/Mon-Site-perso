@@ -89,33 +89,35 @@ class Main extends React.Component {
 								<img src={code} alt='' />
 							</span>
 							<p>
-								
+								<h3>
+									<u>Projets professionnels :</u>
+								</h3>
 								<li>
-									
-										<b>I Clean My Sea</b> 
-									
-								<p>Cette application web a servi de base pour la création de l'application native disponible sur les stores:
-								</p>
-							<a target='_blank' href='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'>
-								<img src={gps} alt='logo play store' />
-							</a>
-							{' '}
-							<a target='_blank' href='https://apps.apple.com/fr/app/i-clean-my-sea/id1524630568'>
-								<img src={aps} alt='logo app store'  />
-
-							</a>
-
+									<b>I Clean My Sea</b>
+									<p>Cette application web a servi de base pour la création de l'application native disponible sur les stores:</p>
+									<a target='_blank' href='https://play.google.com/store/apps/details?id=fr.icleanmysea&gl=FR'>
+										<img src={gps} alt='logo play store' />
+									</a>{' '}
+									<a target='_blank' href='https://apps.apple.com/fr/app/i-clean-my-sea/id1524630568'>
+										<img src={aps} alt='logo app store' />
+									</a>
 								</li>
+								<h3>
+									<u>Projets en formation :</u>
+								</h3>
 								<li>
 									<a target='_blank' href='https://blogteam.netlify.app/'>
 										<b>Blog Big Pig Junk Food</b>
 									</a>
 								</li>
-						<li>
-							<a target='_blank' href='https://grillephotossvp.netlify.app'>
-								<b>Exemple grille de photos</b>
-							</a>
-						</li>
+								<h3>
+									<u>Projets personnels :</u>
+								</h3>
+								<li>
+									<a target='_blank' href='https://grillephotossvp.netlify.app'>
+										<b>Exemple grille de photos</b>
+									</a>
+								</li>
 							</p>
 
 							{close}
