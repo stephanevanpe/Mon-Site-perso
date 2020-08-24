@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title="Stéphane Van Pe"
             meta={[
-              { name: 'description', content: 'Designed by HTML5 Up, Enhanced by AppSeed with FTP Deploy Script, Authentication using GatbsyJS.' },
-              { name: 'keywords', content: 'react, theme, html5up, dimension, appseed' },
+              { name: 'description', content: 'Développeur web junior & freelance. Une idée de projet, on en parle !' },
+              { name: 'keywords', content: 'react, developpeur-web, javascript, leaflet, firebase ' },
             ]}
           >
             <html lang="fr" />
