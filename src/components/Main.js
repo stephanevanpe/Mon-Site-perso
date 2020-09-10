@@ -110,6 +110,11 @@ class Main extends React.Component {
 										<b>Blog Big Pig Junk Food</b>
 									</a>
 								</li>
+								<li>
+									<a target='_blank' href='https://lotrsnk.netlify.app/'>
+										<b>Site LOTR</b>
+									</a>
+								</li>
 								<br />
 								<h3>
 									<u>Projets personnels :</u>
