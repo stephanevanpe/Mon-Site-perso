@@ -110,10 +110,15 @@ class Main extends React.Component {
 										<b>Blog Big Pig Junk Food</b>
 									</a>
 								</li>
-								<br/>
+								<br />
 								<h3>
 									<u>Projets personnels :</u>
 								</h3>
+								<li>
+									<a target='_blank' href='https://morpionsvp.netlify.app'>
+										<b>Jeu du morpion</b>
+									</a>
+								</li>
 								<li>
 									<a target='_blank' href='https://grillephotossvp.netlify.app'>
 										<b>Exemple grille de photos</b>
