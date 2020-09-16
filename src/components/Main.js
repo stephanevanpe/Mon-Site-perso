@@ -120,6 +120,11 @@ class Main extends React.Component {
 									<u>Projets personnels :</u>
 								</h3>
 								<li>
+									<a target='_blank' href='https://todo-listsvp.netlify.app/'>
+										<b>Todo list</b>
+									</a>
+								</li>
+								<li>
 									<a target='_blank' href='https://morpionsvp.netlify.app'>
 										<b>Jeu du morpion</b>
 									</a>
