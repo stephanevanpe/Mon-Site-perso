@@ -120,6 +120,11 @@ class Main extends React.Component {
 									<u>Projets personnels :</u>
 								</h3>
 								<li>
+									<a target='_blank' href='https://corona-trackersvp.netlify.app/'>
+										<b>Corona tracker</b>
+									</a>
+								</li>
+								<li>
 									<a target='_blank' href='https://lightsvp.netlify.app/'>
 										<b>Ampoules</b>
 									</a>
