@@ -120,6 +120,11 @@ class Main extends React.Component {
 									<u>Projets personnels :</u>
 								</h3>
 								<li>
+									<a target='_blank' href='https://stickerssvp.netlify.app/'>
+										<b>E-commerce: Les Stickers de Stef</b>
+									</a>
+								</li>
+								<li>
 									<a target='_blank' href='https://weathersvp.netlify.app/'>
 										<b>Application météo</b>
 									</a>
