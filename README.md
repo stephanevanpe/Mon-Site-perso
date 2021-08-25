@@ -1,4 +1,4 @@
-En cours de création, le site n'est pas fini.
+En cours de création, le site n'est pas fini, il evolue au cours du temps en fonction des réalisations.
 
-https://stephane-van-pe.netlify.com
+https://stephanevanpe.fr
 
