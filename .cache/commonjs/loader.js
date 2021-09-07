@@ -87,7 +87,6 @@ const toPageResources = (pageData, component = null) => {
 
 class BaseLoader {
   constructor(loadComponent, matchPaths) {
-    this.inFlightNetworkRequests = new Map();
     // Map of pagePath -> Page. Where Page is an object with: {
     //   status: PageResourceStatus.Success || PageResourceStatus.Error,
     //   payload: PageResources, // undefined if PageResourceStatus.Error
@@ -112,6 +111,8 @@ class BaseLoader {
     this.loadComponent = loadComponent;
     (0, _findPath.setMatchPaths)(matchPaths);
   }
+
+  inFlightNetworkRequests = new Map();
 
   memoizedGet(url) {
     let inFlightPromise = this.inFlightNetworkRequests.get(url);

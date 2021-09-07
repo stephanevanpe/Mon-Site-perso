@@ -134,10 +134,6 @@ const navigate = (to, options = {}) => {
 
 
     if (process.env.NODE_ENV === `production` && pageResources) {
-      // window.___webpackCompilationHash gets set in production-app.js after navigationInit() is called
-      // So on a direct visit of a page with a browser redirect this check is truthy and thus the codepath is hit
-      // While the resource actually exists, but only too late
-      // TODO: This should probably be fixed by setting ___webpackCompilationHash before navigationInit() is called
       if (pageResources.page.webpackCompilationHash !== window.___webpackCompilationHash) {
         // Purge plugin-offline cache
         if (`serviceWorker` in navigator && navigator.serviceWorker.controller !== null && navigator.serviceWorker.controller.state === `activated`) {
@@ -146,7 +142,7 @@ const navigate = (to, options = {}) => {
           });
         }
 
-        window.location = pathname + search + hash;
+        window.location = pathname;
       }
     }
 
