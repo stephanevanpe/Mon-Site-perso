@@ -32,20 +32,19 @@ const getPathFromProps = props => props.pageResources && props.pageResources.pag
 class PageQueryStore extends _react.default.Component {
   constructor(props) {
     super(props);
-
-    this.handleMittEvent = () => {
-      this.setState(state => {
-        return {
-          page: state.path ? _loader.default.loadPageSync((0, _normalizePagePath.default)(state.path)) : null
-        };
-      });
-    };
-
     this.state = {
       pageData: null,
       path: null
     };
   }
+
+  handleMittEvent = () => {
+    this.setState(state => {
+      return {
+        page: state.path ? _loader.default.loadPageSync((0, _normalizePagePath.default)(state.path)) : null
+      };
+    });
+  };
 
   componentDidMount() {
     (0, _socketIo.registerPath)(getPathFromProps(this.props));
@@ -101,19 +100,18 @@ exports.PageQueryStore = PageQueryStore;
 class StaticQueryStore extends _react.default.Component {
   constructor(props) {
     super(props);
-
-    this.handleMittEvent = () => {
-      this.setState({
-        staticQueryData: { ...(0, _loader.getStaticQueryResults)()
-        }
-      });
-    };
-
     this.state = {
       staticQueryData: { ...(0, _loader.getStaticQueryResults)()
       }
     };
   }
+
+  handleMittEvent = () => {
+    this.setState({
+      staticQueryData: { ...(0, _loader.getStaticQueryResults)()
+      }
+    });
+  };
 
   componentDidMount() {
     ___emitter.on(`staticQueryResult`, this.handleMittEvent);
